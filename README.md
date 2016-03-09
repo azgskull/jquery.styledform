@@ -19,7 +19,7 @@ Build html Select, Radio, Checkbox easy to be customized
 ## Second step
 ### New html generated
 #### Select
-####  - html
+* **HTML**
 ```html
 <select data-form="select" name="">
   <option disabled="">Options</option>
@@ -42,7 +42,7 @@ Then, styledForm will hide the select, and create a fake list as a select replac
 ```
 > where ```<span class="disabled">Options</span>``` is the placeholder for the selected option
 
-####  - Basic Css
+* **Basic CSS**
 ```css
 .styledSelect{display:inline-block; width: 100%; position:relative}
 .styledSelect span{position: relative;display: block;background: #fbfbfb;padding: 0 5px;width: 100%;border: 1px solid #ccc; cursor: pointer}
@@ -59,7 +59,7 @@ Then, styledForm will hide the select, and create a fake list as a select replac
 
 
 #### Checkbox
-####  - html
+* **HTML**
 ```html
 <label>
 	<input type="checkbox" data-form="checkbox" name="">
@@ -78,7 +78,7 @@ Then, styledForm will hide the select, and create a fake list as a select replac
 
 > where ```<span class="checkbox-ic"></span>``` is the icon for the checked element
 
-####  - Basic Css
+* **CSS**
 ```css
 .styledCheckbox{position: relative; display: inline-block; padding-left: 1.25rem; cursor: pointer}
 .styledCheckbox .checkbox-ckb{visibility: hidden;position: absolute; top: 0px; left: 0px; width: 100%; height: 100%}
@@ -87,7 +87,7 @@ Then, styledForm will hide the select, and create a fake list as a select replac
 ```
 
 #### Radio (Same as checkbox)
-####  - html
+* **HTML**
 ```html
 <label class="radio">
 	<input type="radio" data-form="radio" name="" >
@@ -107,7 +107,7 @@ Then, styledForm will hide the select, and create a fake list as a select replac
 
 > where ```<span class="radio-ic"></span>``` is the icon for the selected element
 
-####  - Basic Css
+* **CSS**
 ```css
 .styledRadio{position: relative; display: inline-block; padding-left: 1.25rem; cursor: pointer;}
 .styledRadio .radio-ckb{visibility: hidden;position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;}
