@@ -1,0 +1,26 @@
+{
+  "name": "StyledForm",
+  "title": "StyledForm",
+  "description": "Build html Select, Radio, Checkbox easy to be customized",
+  "keywords": [
+    "jquery-plugins",
+    "StyledForm"
+  ],
+  "version": "0.1.0",
+  "author": {
+    "name": "Abdelaziz Ghazani",
+    "url": "https://github.com/azgskull"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "bugs": "https://github.com/azgskull/styledform/issues",
+  "docs": "https://github.com/azgskull/styledform",
+  "download": "https://github.com/azgskull/styledform/archive/master.zip",
+  "dependencies": {
+    "jquery": ">=1.4"
+  }
+}
