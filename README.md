@@ -1,2 +1,2 @@
-# styledform
-Jquery plugin to build html's form select, radio, checkbox, easy to be customised
+#StyledForm
+Build html Select, Radio, Checkbox easy to be customized
