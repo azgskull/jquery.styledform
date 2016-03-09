@@ -1,0 +1,82 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>StyledForm</title>
+	<style>
+		*{
+			box-sizing: border-box;
+		}
+		.styledRadio,
+		.styledCheckbox{
+			margin-bottom: 0.5rem;
+		}
+		section{
+			width: 10rem;
+		}
+	</style>
+  </head>
+  <body>
+ 	<h1>StyledForm</h1>
+  	<section>
+	    <h2>Select</h2>
+	    <select data-form="select" name="">
+		  <option disabled="">Options</option>
+		  <option value="1">Option 1</option>
+		  <option value="2">Option 2</option>
+		</select>
+	</section>
+	<section>
+	    <h2>CheckBox</h2>
+	    <div>
+		    <label>
+			    <input type="checkbox" data-form="checkbox" name="">
+			    Checkbox 1
+			</label>
+		</div>
+		<div>
+		    <label>
+			    <input type="checkbox" data-form="checkbox" name="">
+			    Checkbox 2
+			</label>
+		</div>
+		<div>
+		    <label>
+			    <input type="checkbox" data-form="checkbox" name="">
+			    Checkbox 3
+			</label>
+		</div>
+	</section>
+	<section>
+	    <h2>Radio</h2>
+	    <div>
+		    <label class="radio">
+			    <input type="radio" data-form="radio" name="radio1" >
+			    Radiobutton 1 
+			</label>
+		</div>
+		<div>
+		    <label class="radio">
+			    <input type="radio" data-form="radio" name="radio1" >
+			    Radiobutton 2
+			</label>
+		</div>
+		<div>
+		     <label class="radio">
+			    <input type="radio" data-form="radio" name="radio1" >
+			    Radiobutton 3
+			</label>
+		</div>
+	</section>
+	
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="js/jquery.styledform.js"></script>
+    <script>
+    	$('[data-form]').each(function(){
+	        $(this).styledform();
+	    });
+    </script>
+
+  </body>
+</html>

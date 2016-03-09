@@ -1,6 +1,6 @@
 //////////////////////////////////////////////////////
 /// StyledForm v0.1.0 - march,09 2016
-/// Build html Select, Radio, Checkbox which can be customized
+/// Build html Select, Radio, Checkbox easy to be customized
 /// 
 /// @AZGSKULL - StyledForm
 //////////////////////////////////////////////////////
@@ -221,13 +221,13 @@
         			checkbox += '.styledCheckbox{position: relative; display: inline-block; padding-left: 1.25rem; cursor: pointer}';
         			checkbox += '.styledCheckbox .checkbox-ckb{visibility: hidden;position: absolute; top: 0px; left: 0px; width: 100%; height: 100%}';
         			checkbox += '.styledCheckbox .checkbox-ckb:checked ~ .checkbox-ic{ background-color: #666}';
-        			checkbox += '.styledCheckbox .checkbox-ic{position: absolute; display: inline-block; width: 0.9375rem; height: 0.9375rem; left: 0px; top: 0.3125rem; background: #fbfbfb; border: 1px solid #ccc;}';
+        			checkbox += '.styledCheckbox .checkbox-ic{position: absolute; display: inline-block; width: 0.9375rem; height: 0.9375rem; left: 0px; top: 0; background: #fbfbfb; border: 1px solid #ccc;}';
 				
 				var radio = '';
         			radio += '.styledRadio{position: relative; display: inline-block; padding-left: 1.25rem; cursor: pointer;}';
         			radio += '.styledRadio .radio-ckb{visibility: hidden;position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;}';
         			radio += '.styledRadio .radio-ckb:checked ~ .radio-ic{ background-color: #666}';
-        			radio += '.styledRadio .radio-ic{position: absolute; display: inline-block; width: 0.9375rem; height: 0.9375rem; left: 0px; top: 0.3125rem; background: #fbfbfb; border: 1px solid #ccc; border-radius: 100%}';
+        			radio += '.styledRadio .radio-ic{position: absolute; display: inline-block; width: 0.9375rem; height: 0.9375rem; left: 0px; top: 0; background: #fbfbfb; border: 1px solid #ccc; border-radius: 100%}';
 
 
         	styles += select + checkbox + radio + '</style>';
