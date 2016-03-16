@@ -3,6 +3,7 @@
 /// Build html Select, Radio, Checkbox easy to be customized
 /// 
 /// @AZGSKULL - StyledForm
+/// https://github.com/azgskull/styledform
 /// Released under the MIT license - http://opensource.org/licenses/MIT
 //////////////////////////////////////////////////////
 
