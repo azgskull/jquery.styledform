@@ -130,6 +130,7 @@
 
         		//click option
         		var text = $(this).text();
+                $('option',Select).removeAttr('selected');
         		$('option',Select).eq(Clicked).attr('selected', 'selected');
         		$('span', StyledSelect).text(text);
                 $('span', StyledSelect).removeClass('disabled');
