@@ -1,5 +1,5 @@
 //////////////////////////////////////////////////////
-/// StyledForm v0.1.0 - march,09 2016
+/// StyledForm v0.1.2 - march,16 2016
 /// Build html Select, Radio, Checkbox easy to be customized
 /// 
 /// @AZGSKULL - StyledForm
