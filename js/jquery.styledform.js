@@ -94,10 +94,11 @@
         function fn_select_prepare_html(Select,Options){
         	//hide select
         	Select.css({
-                position: 'absolute';
-                width: 0;
-                height: 0;
-                overflow: 'hidden';
+                position: 'absolute',
+                width: 0,
+                height: 0,
+                overflow: 'hidden',
+                opacity : 0,
             });
 
         	//create global div 
